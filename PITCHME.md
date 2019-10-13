@@ -14,15 +14,11 @@ Picture 2
 
 ---
 
-# But there was one
+# The one plant
 
 ---
 
 # This is Zdzislaw
-
----
-
-# I wanted Zdzislaw to survive
 
 ---
 
@@ -34,11 +30,11 @@ Picture 2
 
 ---
 
-# I wanted to keep Zdzislaw alive
+## I wanted to keep Zdzislaw alive
 
 ---
 
-# I tried reminders
+## I tried reminders
 
 ---
 
@@ -62,21 +58,21 @@ Picture of a reminder 2
 
 ---
 
-# I have never had such problems with animals
+## I have never had such problems with animals
 
 ---
 
-# This is Fado
+## This is Fado
 
 Picture
 
 ---
 
-# When he is hungry, he know what to do
+## When he is hungry, he know what to do
 
 --- 
 
-# He kicks his bowl and makes a lot of noise
+## He kicks his bowl and makes a lot of noise
 
 ---
 
@@ -89,42 +85,44 @@ Picture
 
 ---
 
-# What do we need?
+## What do we need?
 
-@css[fragment](* A little bit of overengineering)
-@css[fragment](* Ignorance towards 10,000 years of agriculture history)
-@css[fragment](* some equipement I will use only once)
-
----
-
-# Connecting Arduino to WiFi
+<ul>
+<li class="fragment">A little bit of overengineering</li>
+<li class="fragment">Ignorance towards 10,000 years of agriculture history</li>
+<li class="fragment">some equipement I will use only once</li>
+<ul>
 
 ---
 
-# Using sensors
+### Connecting Arduino to WiFi
 
 ---
 
-# The problem with cheap sensors
+### Using sensors
 
 ---
 
-# Figuring out the measurement thresholds
+### The problem with cheap sensors
 
 ---
 
-# Using the water pump
+### Figuring out the measurement thresholds
 
 ---
 
-# This thing is huge
+### Using the water pump
 
 ---
 
-# I have never promised that this story is going to have a happy ending
+### This thing is huge
 
 ---
-# It was too late for Zdzislaw
+
+## I have never promised that this story is going to have a happy ending
+
+---
+## It was too late for Zdzislaw
 
 ---
 
@@ -133,7 +131,7 @@ Picture
 ---
 
 
-# This time it is going to be different.
+## This time it is going to be different.
 
 ---
 
@@ -145,18 +143,18 @@ Picture
 
 ---
 
-# What is the most important thing in an IoT project?
+## What is the most important thing in an IoT project?
 
 ---
 
-# If this thing could talk, what would it say?
+## If this thing could talk, what would it say?
 
 ---
 
-# I put a carnivorous plant on the Internet of Things to save its life
-## ... and I failed ;)
+## I put a carnivorous plant on the Internet of Things to save its life
+### ... and I failed ;)
 
-## Bartosz Mikulski
+### Bartosz Mikulski
 @mikulskibartosz
 
 https://mikulskibartosz.name - deep learning
