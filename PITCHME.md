@@ -1,8 +1,8 @@
-# I had a problem
+## I had a problem
 
 ---
 
-# All of my plants were dead
+## All of my plants were dead
 
 ---
 
@@ -14,7 +14,7 @@ Picture 2
 
 ---
 
-# The one plant
+## The one plant
 
 ---
 
@@ -24,9 +24,11 @@ Picture 2
 
 # Zdzislaw
 
-@css[fragment](* Venus flytrap)
-@css[fragment](* likes bugs)
-@css[fragment](* wants to be a software tester)
+<ul>
+<li class="fragment">Venus flytrap</li>
+<li class="fragment">likes bugs</li>
+<li class="fragment">wants to be a software tester</li>
+</ul>
 
 ---
 
@@ -54,7 +56,7 @@ Picture of a reminder 2
 
 ---
 
-# There must be something wrong about plants
+## There must be something wrong about plants
 
 ---
 
@@ -76,12 +78,12 @@ Picture
 
 ---
 
-# Fado can communicate
-# Zdzislaw can't do that
+## Fado can communicate
+## Zdzislaw can't do that
 
 ---
 
-# Let's help Zdzislaw communicate with people
+## Let's help Zdzislaw communicate with people
 
 ---
 
