@@ -1,16 +1,15 @@
 ## I had a problem
 
+Note:
+
+
 ---
 
 ## All of my plants were dead
 
 ---
 
-Picture 1
-
----
-
-Picture 2
+![Dead plant](dead_plant.jpg)
 
 ---
 
@@ -19,6 +18,8 @@ Picture 2
 ---
 
 # This is Zdzislaw
+
+![Zdzislaw](zdzislaw.jpg)
 
 ---
 
@@ -40,11 +41,7 @@ Picture 2
 
 ---
 
-Picture of a reminder
-
----
-
-Picture of a reminder 2
+## Many of them
 
 ---
 
@@ -66,7 +63,7 @@ Picture of a reminder 2
 
 ## This is Fado
 
-Picture
+![Fado](fado.jpg)
 
 ---
 
@@ -99,21 +96,127 @@ Picture
 
 ### Connecting Arduino to WiFi
 
+```c
+#include <WiFiNINA.h>
+
+int status = WL_IDLE_STATUS;
+
+while ( status != WL_CONNECTED) {
+    status = WiFi.begin(ssid, pass);
+    delay(5000);
+}
+```
+
+---
+
+### Sending measurements
+
+```c
+String request = "POST " + resource + " HTTP/1.1";
+String response = "";
+  
+if (tcpClient.connect(server, port)) {
+    #...
+}
+```
+
+---
+
+```c
+#"POST /some_endpoint HTTP/1.1";
+tcpClient.println(request);
+tcpClient.println("Host: " + String(server));
+tcpClient.println("User-Agent: curl/7.60.0");
+tcpClient.println("Accept: */*");
+tcpClient.print("Content-Length: ");
+tcpClient.println(content.length());
+tcpClient.println("Content-Type: application/x-www-form-urlencoded");
+tcpClient.println();
+tcpClient.println(content);
+```
+
+---
+
+```c
+int waiting = 0;
+while(tcpClient.available() == 0 && waiting < 500) {
+    waiting++;
+    delay(1);
+}
+
+while (tcpClient.available() > 0) {
+    delay(2);
+    char c = tcpClient.read();
+    response += c;
+}
+
+tcpClient.stop();
+return response;
+```
+
 ---
 
 ### Using sensors
+
+```c
+#define SoilHumiditySensor A0
+
+float sensorValue = 0;
+for (int i = 0; i <= 100; i++) { 
+    sensorValue = sensorValue + analogRead(SoilHumiditySensor); 
+    delay(1); 
+} 
+sensorValue = sensorValue/100.0; 
+return sensorValue;
+```
 
 ---
 
 ### The problem with cheap sensors
 
+<canvas data-chart="line">
+<!--
+{
+ "data": {
+  "labels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "datasets": [
+   {
+    "data":[238,195,213,254,211,189,208,247,193,209],
+    "label":"Soil humidity",
+    "backgroundColor":"rgba(20,220,220,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+
 ---
 
 ### Figuring out the measurement thresholds
 
+```c
+float SOIL_HUMIDITY_THRESHOLD = 250;
+
+if(soilHumidity < SOIL_HUMIDITY_THRESHOLD) {
+    start_pump();
+} else {
+    stop_pump();
+}
+```
+
 ---
 
 ### Using the water pump
+
+```c
+#define ENGINE 7
+
+void start_pump() {
+  digitalWrite(ENGINE, LOW);
+}
+```
 
 ---
 
@@ -153,10 +256,10 @@ Picture
 
 ---
 
-## I put a carnivorous plant on the Internet of Things to save its life
+### I put a carnivorous plant on the Internet of Things to save its life
 ### ... and I failed ;)
 
-### Bartosz Mikulski
+Bartosz Mikulski
 @mikulskibartosz
 
 https://mikulskibartosz.name - deep learning
