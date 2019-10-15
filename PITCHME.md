@@ -38,6 +38,8 @@ The plant was dead. All of them were dead.
 
 # This is Zdzislaw
 
+---
+
 ![Zdzislaw](zdzislaw.jpg)
 
 Note:
@@ -98,6 +100,9 @@ I never had such problems with animals.
 ---
 
 ## This is Fado
+
+---
+
 
 ![Fado](fado.jpg)
 
@@ -235,6 +240,8 @@ After that, I started reading data from sensors. At this point, I realized that 
 
 ### The problem with cheap sensors
 
+---
+
 <canvas data-chart="line">
 <!--
 {
@@ -296,6 +303,8 @@ I connected the pump to a separate power source. In this case, just a few batter
 ---
 
 ### This thing is huge
+
+---
 
 ![Arduino](arduino.jpg)
 
