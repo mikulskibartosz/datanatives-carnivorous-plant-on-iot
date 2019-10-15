@@ -297,7 +297,7 @@ I connected the pump to a separate power source. In this case, just a few batter
 
 ### This thing is huge
 
-PICTURE
+![Arduino](arduino.jpg)
 
 Note:
 At this point, I realized I can't use that thing. It was too big. I was sure that it was going to be just a fun side project, not something I would be using for real.
