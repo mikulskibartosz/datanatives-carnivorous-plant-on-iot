@@ -302,6 +302,10 @@ I connected the pump to a separate power source. In this case, just a few batter
 
 ---
 
+![Water pump](water_pump.jpg)
+
+---
+
 ### This thing is huge
 
 ---
