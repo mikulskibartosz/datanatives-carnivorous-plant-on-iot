@@ -1,3 +1,4 @@
 charts : true
 background-color : white
 color: black
+highlight: vs
