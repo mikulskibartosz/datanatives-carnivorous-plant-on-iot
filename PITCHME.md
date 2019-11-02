@@ -54,7 +54,7 @@ It could survive a week or two, but I have never seen it stay alive for longer. 
 
 ---
 
-Winter 2019
+# Winter 2019
 
 Note:
 It is 2019. I don't have a Tamagotchi anymore. I wasn't even sure if you could buy a Tamagotchi in 2019 but as you have seen they still exist and sell Tamagotchis.
@@ -108,8 +108,6 @@ The plant was dead. All of them were dead.
 
 ---
 
-# This is Zdzislaw
-
 ![Zdzislaw](zdzislaw.jpg)
 
 Note:
@@ -119,7 +117,7 @@ This is Zdzislaw - the coolest plant I ever had.
 ---
 
 <ul>
-<li class="fragment">Venus flytrap</li>
+<li>Venus flytrap</li>
 <li class="fragment">likes bugs</li>
 <li class="fragment">wants to be a software tester</li>
 </ul>
@@ -176,7 +174,7 @@ I mean the real animals! Not the fake Tamagotchi pets.
 
 ---
 
-![Fado](fado.jpeg)
+![Fado](fado.jpg)
 
 Note:
 This is Fado. He knows what to do when he wants something. Usually, he kicks his bowl and makes a lot of noise.
@@ -321,7 +319,7 @@ I didn't even need the response from the REST API but printing it was useful for
 
 ---
 
-### Using sensors
+## Using sensors
 
 Note:
 After that, I started reading data from sensors. At this point, I realized that I made a mistake. 
