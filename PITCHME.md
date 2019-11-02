@@ -6,6 +6,7 @@ It was Winter 1998, all of the kids at my primary school were playing with this.
 ---
 
 ![Tamagotchi](tamagotchi.jpeg)
+
 <small>https://en.wikipedia.org/wiki/File:Tamagotchi_0124_ubt.jpeg - Tomasz Sienicki - CC</small>
 
 Note:
@@ -14,6 +15,7 @@ A virtual pet simulation game called Tamagotchi.
 ---
 
 ![The_Sims](the_sims.jpg)
+
 <small>Electronic Arts</small>
 
 Note:
@@ -43,7 +45,8 @@ You had to interact with it a few times a day, so obviously, my Tamagotchi anima
 
 ---
 
-![Calendar](calendar.jpg)
+![Calendar](calendar.jpeg)
+
 <small>https://unsplash.com/photos/zni0zgb3bkQ</small>
 
 Note:
