@@ -1,7 +1,7 @@
 ## Winter 1998
 
 Note:
-It was Winter 1998, all of the kids at my primary school were playing with this.
+It was Winter 1998; all of the kids at my primary school were playing with this.
 
 ---
 
@@ -94,7 +94,7 @@ All of my plants are dead.
 ![Winter](winter.jpg)
 
 Note:
-Look at that one. I kind of hoped that it wasn't dead. I was thinking that it was just preparing for the incomming Winter.
+Look at that one. I kind of hoped that it wasn't dead. I was thinking that it was just preparing for the incoming Winter.
 
 I was wrong. The winter has passed and the plant was still dead.
 
@@ -103,7 +103,7 @@ I was wrong. The winter has passed and the plant was still dead.
 ![Dead_plant](dead_plant.jpg)
 
 Note:
-Here is another one. This time I had do doubts and no hope.
+Here is another one. This time I had no doubts and no hope.
 The plant was dead. All of them were dead.
 
 ---
@@ -131,8 +131,8 @@ It likes bugs. Zdzislaw wants to be a software tester.
 # H<sub>2</sub>O
 
 Note:
-I wanted to kepp it alive, but I knew that is wasn't going to be easy.
-Even thought it is kind of straightforward. The only thing it needs is water.
+I wanted to keep it alive, but I knew that is wasn't going to be easy.
+Even though it is kind of straightforward. The only thing it needs is water.
 
 ---
 
@@ -216,7 +216,7 @@ We, humans, know how to take care of a plant. The problem has been solved. There
 
 ---
 
-### Some equipement I will use only once
+### Some equipment I will use only once
 
 Note:
 I wanted to buy an Arduino and build something with it. Why not a water pump for a carnivorous plant?
@@ -259,7 +259,7 @@ Nothing fancy. I just built a REST service using a free Heroku instance and used
 # REST client
 
 Note:
-REST client libraries for Arduino are not very popular. Usually, they have only a few starts on GitHub and a couple of forks. I don't like running on my computer some random code downloaded from GitHub, so I wrote my own REST client.
+REST client libraries for Arduino are not very popular. Usually, they have only a few stars on GitHub and a couple of forks. I don't like running on my computer some random code downloaded from GitHub, so I wrote my own REST client.
 
 ---
 
@@ -369,13 +369,13 @@ I tried making it less terrible by calculating the average of the last hundred v
 # Units? What units?
 
 Note:
-Have you noticed that my chart has no unit? I don't know what is the unit and what is the range of possible values.
+Have you noticed that my chart has no unit? I don't know what the unit is and what is the range of possible values.
 
 The manufacturer of the sensors provided some documentation but they forgot to mention anything about units.
 
 ---
 
-### All you need is threshold
+### All you need is a threshold
 
 ```c
 float SOIL_HUMIDITY_THRESHOLD = 350;
@@ -421,7 +421,7 @@ And here is the water pump and its relay module.
 ![Arduino](arduino.jpg)
 
 Note:
-This thing is huge! At this point, I realized that I can't use Arduino to water my plants. The whole thing is too big. Even without the water container.
+This thing is huge! At this point, I realized that I could not use Arduino to water my plants. The whole thing is too big. Even without the water container.
 
 ---
 
@@ -436,7 +436,7 @@ All of that didn't matter. It was too late for Zdzisław.
 
 Note:
 It was time to get Zdzislaw 2.0
-This time I will use a smaller Arduino, less sensors, and a smaller water pump.
+This time I will use a smaller Arduino, fewer sensors, and a smaller water pump.
 
 It is going to be different! I mean, I will kill a different plant.
 
@@ -472,4 +472,4 @@ https://mikulskibartosz.name - deep learning
 https://easydata.engineering - data engineering
 
 Note:
-My name is Bartosz Mikulski. I put a carnivourous plant of the Internet of Things and it did not survive.
+My name is Bartosz Mikulski. I put a carnivorous plant of the Internet of Things and it did not survive.
