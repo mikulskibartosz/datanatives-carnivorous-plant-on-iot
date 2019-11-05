@@ -248,7 +248,7 @@ I started by connecting Arduino to WiFi. Fortunately, there is a great library I
 
 ---
 
-# Sending measurements
+## Sending measurements
 
 Note:
 To make it at least a little bit cool, I wanted to store measurements in "the cloud."
