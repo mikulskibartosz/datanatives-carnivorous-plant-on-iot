@@ -468,8 +468,7 @@ When you know the answer, everything else becomes easier. Not, the only thing le
 Bartosz Mikulski
 @mikulskibartosz
 
-https://mikulskibartosz.name - deep learning
-https://easydata.engineering - data engineering
+https://mikulskibartosz.name
 
 Note:
 My name is Bartosz Mikulski. I put a carnivorous plant of the Internet of Things and it did not survive.
