@@ -116,18 +116,6 @@ This is Zdzislaw - the coolest plant I ever had.
 
 ---
 
-<ul>
-<li>Venus flytrap</li>
-<li class="fragment">likes bugs</li>
-<li class="fragment">wants to be a software tester</li>
-</ul>
-
-Note:
-It is a Venus Flytrap.
-It likes bugs. Zdzislaw wants to be a software tester.
-
----
-
 # H<sub>2</sub>O
 
 Note:
